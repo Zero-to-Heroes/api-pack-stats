@@ -21,7 +21,7 @@ Resources:
             Runtime: nodejs8.10
             Timeout: 90
             CodeUri: ./dist/save-pack-stats
-            MemorySize: 512
+            MemorySize: 128
             Policies:
                 - AWSLambdaVPCAccessExecutionRole
                 - AmazonSESFullAccess
