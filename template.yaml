@@ -19,7 +19,7 @@ Resources:
         Properties:
             Handler: save-pack-stats.default
             Runtime: nodejs10.x
-            Timeout: 20
+            Timeout: 3
             CodeUri: ./dist/save-pack-stats
             MemorySize: 128
             ReservedConcurrentExecutions: 40
