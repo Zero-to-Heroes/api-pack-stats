@@ -22,6 +22,7 @@ export default async (event): Promise<any> => {
 					card5Id, card5Rarity, card5Type,
 					creationDate,
 					setId,
+					boosterId,
 					userId, userMachineId,
 					userName
 				)
@@ -34,6 +35,7 @@ export default async (event): Promise<any> => {
 					${escape(packStat.card5Id)}, ${escape(packStat.card5Rarity)}, ${escape(packStat.card5Type)},
 					${escape(packStat.creationDate)}, 
 					${escape(packStat.setId)}, 
+					${escape(packStat.boosterId)}, 
 					${escape(packStat.userId)}, ${escape(packStat.userMachineId)}, 
 					${escape(packStat.userName)}
 				)
